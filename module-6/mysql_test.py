@@ -10,9 +10,9 @@ secrets = dotenv_values(".env")
 
 """ database config object """
 config = {
-    "user": secrets["USER"],
+    "user": secrets ["USER"],
     "password": secrets["PASSWORD"],
-    "host": secrets["HOST"],
+    "localhost": secrets["HOST"],
     "database": secrets["DATABASE"],
     "raise_on_warnings": True #not in .env file
 }
